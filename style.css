@@ -59,10 +59,10 @@ text-decoration: none;
 }
 /* menu btn styling */
 .menu-btn{
-    color: #fff;
+    color: black;
     font-size: 23px;
     cursor: pointer;
-    display: none;
+    display: inline-block;    
 }
 /* home section styling */
 .home{
