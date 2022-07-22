@@ -233,7 +233,7 @@ text-decoration: none;
 
     }
     .about .about-content .left img{
-        height: 500px;
-        width: 400px;
+        height: 200px;
+        width: 200px;
         object-fit: cover;
     }
