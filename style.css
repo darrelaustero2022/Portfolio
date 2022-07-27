@@ -216,6 +216,7 @@ text-decoration: none;
         font-size: 20px;
     }
     
+    
       
 } 
 
@@ -346,9 +347,7 @@ section .title{
         color: #fff;
     }
     .services .serv-content .card{
-        width: calc(50% - 10px);
+        width: calc(100% - 10px);
         margin-bottom: 20px;
-        display: flex;
-        flex-direction: row;
-
+      
     }
