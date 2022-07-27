@@ -215,6 +215,8 @@ text-decoration: none;
     .home .home-content a{
         font-size: 20px;
     }
+   
+    
 
 } 
 
@@ -225,12 +227,17 @@ text-decoration: none;
     .home .home-content .text-3{
         font-size: 27px;
     }
+    .serv-content{
+        display: flex;
+        flex-direction: column;
+
+    }
 
 } 
 /* similar styling code */
 section{
     padding: 100px 0;
-}
+    }
 section .title{
     text-decoration: underline;
     text-align: center;
@@ -238,14 +245,14 @@ section .title{
     font-weight: 500;
     margin-bottom: 60px;
     padding-bottom: 20px;
-    font-family: 'Lucida Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     
 }
 
 
 /* About section styling */
     .about .services{
-        font-family: Verdana, sans-serif;
+        font-family: 'Ubuntu', sans-serif;
     }
     
     .about .about-content{
@@ -277,7 +284,7 @@ section .title{
 
     }
     .about .about-content .right .text span{
-        color: crimson;
+        color: rgb(123, 154, 196);
     }
 
     .about .about-content .right p{
@@ -286,7 +293,7 @@ section .title{
 
     .about .about-content .right a{
         display: inline-block;
-        background: crimson;
+        background: rgb(123, 154, 196);
         color: #fff;
         font-size: 20px;
         padding: 10px 30px;
@@ -310,9 +317,40 @@ section .title{
     
     .services .serv-content .card{
         width: calc(33% - 20px);
-        background: #fff;
+        background: lightsteelblue;
         text-align: center;
         border-radius: 6px;
         padding: 20px 25px;
         cursor: pointer;
     }
+    .serv-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .box i{
+        font-size: x-large;
+        padding-bottom: 10px;
+        color: rgb(13, 13, 97);
+    }
+    .box .text{
+        font-size: x-large;
+        padding-bottom: 10px;
+        font-weight: bolder;
+    }
+    .services .serv-content .card .box{
+        transition: all 0.4s ease;
+    }
+   
+    .services .serv-content .card:hover .box{
+        transform: scale(1.05);
+        color: white;    
+    }
+    
+    .services .serv-content .card:hover i{
+        color: #fff;
+    }
+    .services .serv-content .card:hover .text{
+        color: #fff;
+    }
+   
