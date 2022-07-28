@@ -329,7 +329,7 @@ section .title{
         flex-wrap: wrap;
     }
     .card{
-        background: white);
+        background: white;
         width: 220px;
         height: 500px;
         margin: 10px;
