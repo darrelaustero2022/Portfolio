@@ -45,7 +45,7 @@ text-decoration: none;
     display: inline-block;  
 }
 .navbar .menu li a{
-    color: #fff;
+    color: white;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
@@ -68,9 +68,9 @@ text-decoration: none;
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/kristopher-roller-zepnJQycr4U-unsplash.jpg") no-repeat center;
+    background: url("images/pexels-miguel-á-padriñán-1591060.jpg") no-repeat center;
     height: 100vh;
-    color: #fff;
+    color: lightseagreen;
     min-height: 500px;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -97,7 +97,7 @@ text-decoration: none;
 .home .home-content a{
     display: inline-block;
     background: none;
-    color: #fff;
+    color: lightgrey;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
@@ -201,6 +201,9 @@ text-decoration: none;
         flex: 100%;
         
     }
+    .skills .skills-content .column{
+        width: 100%;
+    }
 }
 @media (max-width: 690px){
     .max-width{
@@ -237,7 +240,7 @@ text-decoration: none;
 
 } 
 /* similar styling code */
-.about, .services, .skills{
+.about, .services, .projects{
     font-family: 'Ubuntu', sans-serif;
 }
 section{
@@ -310,146 +313,60 @@ section .title{
         background: none;
     }
 
-    /* services section styling */
-    .services{
-        color: #111;
-        background: #fff;
-    }
-       
     
-    .services .serv-content .card{
-        text-align: center;
-        border-radius: 6px;
-        padding: 20px 25px;
-        cursor: pointer;
+    /* My Services styling */
+    .container{
         display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        width: calc(100% - 30px);
-
+        justify-content: center;
+        flex-wrap: wrap;
     }
-    
-    
-    .box i{
-        font-size: x-large;
-        padding-bottom: 10px;
-        color: rgb(13, 13, 97);
-        padding-top: 20px;
+    .card{
+        background: rgb(231, 235, 240);
+        width: 220px;
+        height: 500px;
+        margin: 10px;
+        border-radius: 5px;
     }
-    .box .text{
-        font-size: x-large;
-        padding-bottom: 10px;
-        font-weight: bolder;
+    .card-image{
+        background-color: aqua;
+        height: 180px;
+        border-radius: 10px 10px 0 0
+        ;
+        background-size: cover;
     }
-    .services .serv-content .card .box{
-        transition: all 0.4s ease;
-        
+    .react{
+        background: url(images/react.jpg);
+    }
+    .wordpress{
+        background: url(images/moritz-mentges-5MlBMYDsGBY-unsplash.jpg) center;
+    }
+    .socmed{
+        background: url(images/pexels-tracy-le-blanc-607812\ \(1\).jpg);
+    }
+    .editing{
+        background: url(images/sony-vega-257904.jpg);
+    }
+    .card h2{
+        padding: 10px;
+        text-align: center;
+    }
+    .card p{
+        padding: 10px;
+        text-align: center
+    }
+    .card a{
+        background-color: lightsteelblue;
+        color: #fff;
+        padding: 15px 20px;
+        display: block;
+        text-align: center;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .card:hover{
+        background-color: black;
+        color: #fff;
+        transform: scale(1.02);
+        transition: 0.5s;
     }
    
-    .services .serv-content .card:hover .box{
-        transform: scale(1.05);
-        background: lightsteelblue;
-       
-        
-    }
-    
-    .services .serv-content .card:hover i{
-        color: #fff;
-    }
-
-    .box p{
-        padding-left: 10%;
-        padding-right: 10%;
-        padding-bottom: 20px;
-    }
-    .serv-content .box{
-        background-color: rgb(239, 243, 248);
-        border-radius: 5px;
-        padding-left: 20%;
-        padding-right: 20%;
-        
-    }
-    /* skills section styling */
-    .skills .skills-content{
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .skills .skills-content .column{
-        width: calc(50% - 30px);
-    }
-    .skills .skills-content .left .text{
-        font-size: 25px;
-        font-weight: 600;
-        margin-bottom: 10px;
-
-    }
-    .skills .skills-content .left .text{
-        text-align: justify;
-    }
-    .skills .skills-content .left a{
-        display: inline-block;
-        background: rgb(123, 154, 196);
-        color: #fff;
-        font-size: 20px;
-        padding: 10px 30px;
-        margin-top: 20px;
-        border-radius: 6px;
-        border: 2px solid lightsteelblue;
-        transition: all 0.3s ease;
-    }
-    .skills .skills-content .left a:hover{
-        color: lightsteelblue;
-        background: none;
-    }
-    .skills .skills-content .right .bars{
-        margin-bottom: 15px;
-    }
-    .skills .skills-content .right .info{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .skills .skills-content .right span{
-        font-weight: 500;
-        font-size: 18px;
-        margin-bottom: 5px;
-    }
-    .skills .skills-content .right .line{
-        height: 5px;
-        width: 100%;
-        background: lightgrey;
-        position: relative;
-    }
-    .skills .skills-content .right .line::before{
-        content: "";
-        position: absolute;
-        height: 100%;
-        width: 80%;
-        left: 0;
-        top: 0;
-        background: rgb(123, 154, 196);
-    }
-    .skills .skills-content .right .html::before{
-        width: 90%;
-    }
-    .skills .skills-content .right .css::before{
-        width: 85%;
-    }
-    .skills .skills-content .right .javascript::before{
-        width: 90%;
-    }
-    .skills .skills-content .right .facebook::before{
-        width: 90%;
-    }
-    .skills .skills-content .right .react::before{
-        width: 85%;
-    }
-    .skills .skills-content .right .sony::before{
-        width: 90%;
-    }
-    .skills .skills-content .right .content::before{
-        width: 95%;
-    }
