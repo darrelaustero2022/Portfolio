@@ -70,7 +70,7 @@ text-decoration: none;
     display: flex;
     background: url("images/pexels-miguel-á-padriñán-1591060.jpg") no-repeat center;
     height: 100vh;
-    color: lightseagreen;
+    color: white;
     min-height: 500px;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -97,7 +97,7 @@ text-decoration: none;
 .home .home-content a{
     display: inline-block;
     background: none;
-    color: lightgrey;
+    color: white;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
@@ -233,13 +233,21 @@ text-decoration: none;
     .home .home-content .text-3{
         font-size: 27px;
     }
-    .services .serv-content .card{
-        width: 100%
-              
-    }
-
+                 
+    
 } 
+
+@media (max-width: 297px){
+    .services h2{
+        font-size: smaller;
+    }
+    .services .container .card{
+        font-size: smaller;
+    }
+}
+
 /* similar styling code */
+
 .about, .services, .projects{
     font-family: 'Ubuntu', sans-serif;
 }
@@ -321,7 +329,7 @@ section .title{
         flex-wrap: wrap;
     }
     .card{
-        background: rgb(231, 235, 240);
+        background: white);
         width: 220px;
         height: 500px;
         margin: 10px;
