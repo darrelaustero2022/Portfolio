@@ -68,7 +68,7 @@ text-decoration: none;
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/pexels-miguel-á-padriñán-1591060.jpg") no-repeat center;
+    background: #111;
     height: 100vh;
     color: white;
     min-height: 500px;
@@ -237,12 +237,18 @@ text-decoration: none;
     
 } 
 
-@media (max-width: 297px){
-    .services h2{
-        font-size: smaller;
-    }
+@media (max-width: 275px){
+   
     .services .container .card{
-        font-size: smaller;
+        font-size: small;
+    }
+    
+}
+
+@media (max-width: 228px){
+   
+    .services .container .card{
+        font-size: small;
     }
 }
 
@@ -306,18 +312,18 @@ section .title{
 
     .about .about-content .right a{
         display: inline-block;
-        background: rgb(123, 154, 196);
+        background: black;
         color: #fff;
         font-size: 20px;
         padding: 10px 30px;
         margin-top: 20px;
         border-radius: 6px;
-        border: 2px solid lightsteelblue;
+        border: 2px solid black;
         transition: all 0.3s ease;
     }
 
     .about .about-content .right a:hover{
-        color: lightsteelblue;
+        color: black;
         background: none;
     }
 
@@ -363,7 +369,7 @@ section .title{
         text-align: center
     }
     .card a{
-        background-color: lightsteelblue;
+        background-color: black;
         color: #fff;
         padding: 15px 20px;
         display: block;
