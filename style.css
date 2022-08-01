@@ -273,7 +273,7 @@ text-decoration: none;
 
 /* similar styling code */
 
-.about, .services, .projects{
+.about, .services, .projects .contact{
     font-family: 'Ubuntu', sans-serif;
 }
 section{
@@ -456,3 +456,38 @@ section .title{
     color: black;
     background: none;
     }
+
+    /** contact styling **/
+   .contactContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+   }
+   .contactInfo{
+    width: 50%;
+   }
+   .contactForm{
+    width: 50%;
+   }
+   .box .icon{
+    padding: 20px;
+   }
+   .contactForm h2{
+    padding: 10px;
+   }
+   .contactForm .inputBox{
+    padding: 10px;
+    background-color: #111;
+    
+   }
+   .contactForm .inputBox span{
+    color: #fff;
+    font-size: large;
+    font-weight: 200;
+   }
+
+
+
+
