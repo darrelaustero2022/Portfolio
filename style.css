@@ -460,33 +460,44 @@ section .title{
     /** contact styling **/
    .contactContainer{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
     flex-wrap: wrap;
+    flex-direction: row;
+
     
-   }
-   .contactInfo{
-    width: 50%;
-   }
-   .contactForm{
-    width: 50%;
-   }
-   .box .icon{
+    }
+    .contactInfo{
+    width: 40%;
+    }
+    .contactForm{
+    width: 40%;
+    }
+    .box .icon{
     padding: 20px;
-   }
-   .contactForm h2{
+    }
+    .contactForm h2{
     padding: 10px;
-   }
-   .contactForm .inputBox{
+    }
+    .contactForm .inputBox{
     padding: 10px;
-    background-color: #111;
-    
-   }
-   .contactForm .inputBox span{
-    color: #fff;
-    font-size: large;
-    font-weight: 200;
-   }
+    background: black;
+    }
+    .contactForm .inputBox textarea{
+    height: 150px;
+    width: 100%;
+    }
+    .contactForm .inputBox4{
+        padding: 10px;
+        background-color: black;
+        border-bottom: 3px;
+    }
+    .contactForm .inputBox4 input{
+        padding: 5px;
+    }
+    .contactForm .inputBox input{
+        width: 100%;
+        height: 30px;
+    }
 
 
 
