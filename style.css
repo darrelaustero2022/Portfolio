@@ -480,16 +480,17 @@ section .title{
     }
     .contactForm .inputBox{
     padding: 10px;
-    background: grey;
+    background: lightsteelblue;
    
     }
     .contactForm .inputBox textarea{
     height: 150px;
     width: 100%;
+    background: #fff;
     }
     .contactForm .inputBox4{
         padding: 10px;
-        background-color: grey;
+        background-color: lightsteelblue;
         border-bottom: 3px;
     }
     .contactForm .inputBox4 input{
@@ -498,6 +499,8 @@ section .title{
     .contactForm .inputBox input{
         width: 100%;
         height: 30px;
+        background: #fff;
+       
     }
 
 
